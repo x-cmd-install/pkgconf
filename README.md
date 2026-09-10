@@ -28,8 +28,30 @@ x install pkgconf
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+## Distribution status
+
+Reported by **246** distros on [repology.org](https://repology.org/project/pkgconf). **42** are ✅ on the latest upstream release, **169** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.5.1` | ⚠️ outdated |
+| Debian 14 | `2.5.1` | ⚠️ outdated |
+| Debian 13 | `1.8.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.5.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.8.1` | ⚠️ outdated |
+| Arch | `3.0.7` | ✅ latest |
+| Homebrew | `3.0.7` | ✅ latest |
+| Fedora rawhide | `2.5.1` | ⚠️ outdated |
+| Nix unstable | `2.5.1` | ⚠️ outdated |
+| Void | `2.1.0` | ⚠️ outdated |
+| Alpine edge | `3.0.7` | ✅ latest |
+| openSUSE Tumbleweed | `2.5.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -40,4 +62,4 @@ Install metadata for pkgconf lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:48:57Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:16:43Z._
