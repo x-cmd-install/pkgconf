@@ -27,16 +27,16 @@ x install pkgconf
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-15 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-16 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-21 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
-Reported by **249** distros on [repology.org](https://repology.org/project/pkgconf). **44** are ✅ on the latest upstream release, **165** are ⚠️ on an older version.
+Reported by **249** distros on [repology.org](https://repology.org/project/pkgconf). **45** are ✅ on the latest upstream release, **164** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -62,4 +62,4 @@ Install metadata for pkgconf lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T05:46:24Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T04:28:00Z._
