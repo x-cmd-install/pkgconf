@@ -1,60 +1,56 @@
-- repo: openindiana
-  subrepo: hipster
+- repo: openkylin_2_0
+  subrepo: nile/main
   srcname: pkgconf
-  binname: developer/build/pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-bin
+    - libpkgconf4
+    - libpkgconf-dev
+    - pkg-config
   visiblename: pkgconf
+  version: 1.9.5
+  origversion: 1.9.5-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - devel
+- repo: pkgsrc_2026_2
+  srcname: devel/pkgconf
+  binname: pkgconf
+  visiblename: devel/pkgconf
   version: 2.5.1
   origversion: null
-  status: legacy
-  summary: Package compiler and linker metadata toolkit
-  categories:
-    - Development/System
-- repo: pclinuxos
-  srcname: pkgconf
-  visiblename: pkgconf
-  version: 2.5.1
-  origversion: 2.5.1-1pclos2025
   status: outdated
-  summary: Package compiler and linker metadata toolkit
-  categories:
-    - Development/Tools
-- repo: adelie_current
-  subrepo: system
-  srcname: pkgconf
-  binname: pkgconf-dev
-  visiblename: pkgconf-dev
-  version: 1.9.4
-  origversion: 1.9.4-r0
-  status: outdated
-  summary: Toolkit for maintaining development package metadata (development files)
+  summary: API-driven pkg-config replacement
   maintainers:
-    - awilfox@adelielinux.org
+    - nico@orgrim.net
+  categories:
+    - devel
+- repo: alpine_3_19
+  subrepo: main
+  srcname: pkgconf
+  binname: pkgconf
+  visiblename: pkgconf
+  version: 2.1.0
+  origversion: 2.1.0-r0
+  status: outdated
+  summary: development framework configuration tools
+  maintainers:
+    - ariadne@dereferenced.org
   licenses:
     - ISC
-- repo: adelie_current
-  subrepo: system
+- repo: manjaro_unstable
+  subrepo: core
   srcname: pkgconf
-  binname: pkgconf-doc
-  visiblename: pkgconf-doc
-  version: 1.9.4
-  origversion: 1.9.4-r0
-  status: outdated
-  summary: Toolkit for maintaining development package metadata (documentation)
-  maintainers:
-    - awilfox@adelielinux.org
+  binname: pkgconf
+  visiblename: pkgconf
+  version: 3.0.10
+  origversion: 3.0.10-1
+  status: newest
+  summary: Package compiler and linker metadata toolkit
   licenses:
     - ISC
-- repo: openindiana
-  subrepo: hipster
-  srcname: pkgconf
-  binname: developer/build/pkgconf
-  visiblename: pkgconf
-  version: 3.0.3
-  origversion: null
-  status: legacy
-  summary: Package compiler and linker metadata toolkit
-  categories:
-    - Development/System
 - repo: adelie_current
   subrepo: system
   srcname: pkgconf
@@ -77,6 +73,32 @@
   origversion: 1.9.4-r0
   status: outdated
   summary: Toolkit for maintaining development package metadata (debug symbols)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - ISC
+- repo: adelie_current
+  subrepo: system
+  srcname: pkgconf
+  binname: pkgconf-dev
+  visiblename: pkgconf-dev
+  version: 1.9.4
+  origversion: 1.9.4-r0
+  status: outdated
+  summary: Toolkit for maintaining development package metadata (development files)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - ISC
+- repo: adelie_current
+  subrepo: system
+  srcname: pkgconf
+  binname: pkgconf-doc
+  visiblename: pkgconf-doc
+  version: 1.9.4
+  origversion: 1.9.4-r0
+  status: outdated
+  summary: Toolkit for maintaining development package metadata (documentation)
   maintainers:
     - awilfox@adelielinux.org
   licenses:
@@ -116,6 +138,17 @@
     - ariadne@dereferenced.org
   licenses:
     - ISC
+- repo: openindiana
+  subrepo: hipster
+  srcname: pkgconf
+  binname: developer/build/pkgconf
+  visiblename: pkgconf
+  version: 3.0.5
+  origversion: null
+  status: legacy
+  summary: Package compiler and linker metadata toolkit
+  categories:
+    - Development/System
 - repo: alpine_3_17
   subrepo: main
   srcname: pkgconf
@@ -171,19 +204,6 @@
 - repo: alpine_3_19
   subrepo: main
   srcname: pkgconf
-  binname: pkgconf
-  visiblename: pkgconf
-  version: 2.1.0
-  origversion: 2.1.0-r0
-  status: outdated
-  summary: development framework configuration tools
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - ISC
-- repo: alpine_3_19
-  subrepo: main
-  srcname: pkgconf
   binname: pkgconf-dev
   visiblename: pkgconf-dev
   version: 2.1.0
@@ -389,6 +409,17 @@
     - ariadne@dereferenced.org
   licenses:
     - ISC
+- repo: openindiana
+  subrepo: hipster
+  srcname: pkgconf
+  binname: developer/build/pkgconf
+  visiblename: pkgconf
+  version: 3.0.6
+  origversion: null
+  status: legacy
+  summary: Package compiler and linker metadata toolkit
+  categories:
+    - Development/System
 - repo: alpine_3_24
   subrepo: main
   srcname: pkgconf
@@ -441,6 +472,17 @@
     - ariadne@dereferenced.org
   licenses:
     - ISC
+- repo: stalix
+  srcname: bin/pkg/conf
+  binname: bin/pkg/conf
+  visiblename: bin/pkg/conf
+  version: 3.0.10
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alt_p11
   srcname: pkgconf
   binnames:
@@ -605,6 +647,18 @@
   summary: Provides compiler and linker configuration (development files)
   licenses:
     - MIT
+- repo: pkgsrc_2026_2
+  srcname: devel/pkgconf23
+  binname: pkgconf
+  visiblename: devel/pkgconf23
+  version: 2.3.0
+  origversion: null
+  status: legacy
+  summary: API-driven pkg-config replacement
+  maintainers:
+    - nia@netbsd.org
+  categories:
+    - devel
 - repo: chimera
   subrepo: main
   srcname: pkgconf
@@ -962,27 +1016,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - libpkgconf
-    - libpkgconf-devel
-    - pkgconf-m4
-    - pkgconf-pkg-config
-    - bomtool
-    - pkgconf-debuginfo
-    - pkgconf-debugsource
-  visiblename: pkgconf
-  version: 2.1.0
-  origversion: 2.1.0-1.fc40
-  status: legacy
-  summary: Package compiler and linker metadata toolkit
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: pkgconf
   binnames:
@@ -1001,6 +1034,27 @@
   summary: Package compiler and linker metadata toolkit
   licenses:
     - ISC AND BSD-4-Clause AND BSD-2-Clause AND pkgconf AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - libpkgconf
+    - libpkgconf-devel
+    - pkgconf-m4
+    - pkgconf-pkg-config
+    - bomtool
+    - pkgconf-debuginfo
+    - pkgconf-debugsource
+  visiblename: pkgconf
+  version: 2.1.0
+  origversion: 2.1.0-1.fc40
+  status: legacy
+  summary: Package compiler and linker metadata toolkit
+  licenses:
+    - ISC
   categories:
     - Unspecified
 - repo: fedora_41
@@ -1175,17 +1229,6 @@
     - ISC
   categories:
     - dev-util
-- repo: openindiana
-  subrepo: hipster
-  srcname: pkgconf
-  binname: developer/build/pkgconf
-  visiblename: pkgconf
-  version: 3.0.5
-  origversion: null
-  status: legacy
-  summary: Package compiler and linker metadata toolkit
-  categories:
-    - Development/System
 - repo: gentoo
   srcname: dev-util/pkgconf
   visiblename: dev-util/pkgconf
@@ -1199,6 +1242,17 @@
     - ISC
   categories:
     - dev-util
+- repo: openindiana
+  subrepo: hipster
+  srcname: pkgconf
+  binname: developer/build/pkgconf
+  visiblename: pkgconf
+  version: 3.0.7
+  origversion: null
+  status: outdated
+  summary: Package compiler and linker metadata toolkit
+  categories:
+    - Development/System
 - repo: gentoo
   srcname: dev-util/pkgconf
   visiblename: dev-util/pkgconf
@@ -1323,17 +1377,6 @@
     - ISC
   categories:
     - dev-util
-- repo: openindiana
-  subrepo: hipster
-  srcname: pkgconf
-  binname: developer/build/pkgconf
-  visiblename: pkgconf
-  version: 3.0.6
-  origversion: null
-  status: legacy
-  summary: Package compiler and linker metadata toolkit
-  categories:
-    - Development/System
 - repo: liguros_develop
   srcname: dev-util/pkgconf
   visiblename: dev-util/pkgconf
@@ -1458,24 +1501,6 @@
     - ISC
   categories:
     - Development/Tools
-- repo: openeuler_25_03
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-devel
-    - pkgconf-help
-    - bomtool
-    - pkgconf-debuginfo
-    - pkgconf-debugsource
-  visiblename: pkgconf
-  version: 2.3.0
-  origversion: 2.3.0-1.oe2503
-  status: outdated
-  summary: Package compiler and linker metadata toolkit
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: pkgconf
@@ -1506,17 +1531,6 @@
   licenses:
     - ISC
 - repo: manjaro_testing
-  subrepo: core
-  srcname: pkgconf
-  binname: pkgconf
-  visiblename: pkgconf
-  version: 3.0.10
-  origversion: 3.0.10-1
-  status: newest
-  summary: Package compiler and linker metadata toolkit
-  licenses:
-    - ISC
-- repo: manjaro_unstable
   subrepo: core
   srcname: pkgconf
   binname: pkgconf
@@ -1671,7 +1685,7 @@
 - repo: nix_unstable
   srcname: libpkgconf
   visiblename: pkgconf
-  version: 2.5.1
+  version: 3.0.8
   origversion: null
   status: outdated
   summary: Package compiler and linker metadata toolkit
@@ -1682,7 +1696,7 @@
 - repo: nix_unstable
   srcname: pkgconf-unwrapped
   visiblename: pkgconf
-  version: 2.5.1
+  version: 3.0.8
   origversion: null
   status: outdated
   summary: Package compiler and linker metadata toolkit
@@ -1744,34 +1758,46 @@
     - ISC
   categories:
     - Unspecified
+- repo: openeuler_25_03
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-devel
+    - pkgconf-help
+    - bomtool
+    - pkgconf-debuginfo
+    - pkgconf-debugsource
+  visiblename: pkgconf
+  version: 2.3.0
+  origversion: 2.3.0-1.oe2503
+  status: outdated
+  summary: Package compiler and linker metadata toolkit
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
 - repo: openindiana
   subrepo: hipster
   srcname: pkgconf
   binname: developer/build/pkgconf
   visiblename: pkgconf
-  version: 3.0.7
+  version: 2.5.1
   origversion: null
-  status: outdated
+  status: legacy
   summary: Package compiler and linker metadata toolkit
   categories:
     - Development/System
-- repo: openkylin_2_0
-  subrepo: nile/main
+- repo: openindiana
+  subrepo: hipster
   srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-bin
-    - libpkgconf4
-    - libpkgconf-dev
-    - pkg-config
+  binname: developer/build/pkgconf
   visiblename: pkgconf
-  version: 1.9.5
-  origversion: 1.9.5-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
+  version: 3.0.3
+  origversion: null
+  status: legacy
+  summary: Package compiler and linker metadata toolkit
   categories:
-    - devel
+    - Development/System
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
   srcname: pkgconf
@@ -1934,30 +1960,15 @@
   summary: Package compiler and linker metadata toolkit
   licenses:
     - ISC
-- repo: pkgsrc_2026_2
-  srcname: devel/pkgconf23
-  binname: pkgconf
-  visiblename: devel/pkgconf23
-  version: 2.3.0
-  origversion: null
-  status: legacy
-  summary: API-driven pkg-config replacement
-  maintainers:
-    - nia@netbsd.org
-  categories:
-    - devel
-- repo: pkgsrc_2026_2
-  srcname: devel/pkgconf
-  binname: pkgconf
-  visiblename: devel/pkgconf
+- repo: pclinuxos
+  srcname: pkgconf
+  visiblename: pkgconf
   version: 2.5.1
-  origversion: null
+  origversion: 2.5.1-1pclos2025
   status: outdated
-  summary: API-driven pkg-config replacement
-  maintainers:
-    - nico@orgrim.net
+  summary: Package compiler and linker metadata toolkit
   categories:
-    - devel
+    - Development/Tools
 - repo: pkgsrc_2026_3
   srcname: devel/pkgconf23
   binname: pkgconf
@@ -2156,17 +2167,6 @@
     - ISC
   categories:
     - build-tools
-- repo: stalix
-  srcname: bin/pkg/conf
-  binname: bin/pkg/conf
-  visiblename: bin/pkg/conf
-  version: 3.0.10
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/pkg/conf
   binname: bin/pkg/conf
@@ -2354,24 +2354,8 @@
   origversion: null
   status: outdated
   summary: A program which helps to configure compiler and linker flags for development frameworks.
-- repo: xrepo
-  srcname: pkgconf
-  visiblename: pkgconf
-  version: 1.8.0
-  origversion: null
-  status: legacy
-  summary: A program which helps to configure compiler and linker flags for development frameworks.
-  vulnerable: true
-- repo: xrepo
-  srcname: pkgconf
-  visiblename: pkgconf
-  version: 1.7.4
-  origversion: null
-  status: legacy
-  summary: A program which helps to configure compiler and linker flags for development frameworks.
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
+- repo: openkylin_1_0
+  subrepo: yangtze-proposed/main
   srcname: pkgconf
   binnames:
     - pkgconf
@@ -2379,110 +2363,13 @@
     - libpkgconf3
     - libpkgconf-dev
   visiblename: pkgconf
-  version: 1.7.4~git20210206+dcf529b
-  origversion: 1.7.4~git20210206+dcf529b-3
+  version: 1.6.3
+  origversion: 1.6.3-ok1
   status: outdated
   maintainers:
-    - andrewsh@debian.org
+    - packaging@lists.openkylin.top
   categories:
-    - misc
-  vulnerable: true
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-bin
-    - libpkgconf3
-    - libpkgconf-dev
-    - pkg-config
-  visiblename: pkgconf
-  version: 1.8.1
-  origversion: 1.8.1-1+apertis0
-  status: outdated
-  maintainers:
-    - andrewsh@debian.org
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-bin
-    - libpkgconf3
-    - libpkgconf-dev
-    - pkg-config
-  visiblename: pkgconf
-  version: 1.8.1
-  origversion: 1.8.1-4
-  status: outdated
-  maintainers:
-    - andrewsh@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-bin
-    - libpkgconf3
-    - libpkgconf-dev
-    - pkg-config
-  visiblename: pkgconf
-  version: 1.8.1
-  origversion: 1.8.1-4
-  status: outdated
-  maintainers:
-    - andrewsh@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-bin
-    - libpkgconf3
-    - libpkgconf-dev
-    - pkg-config
-  visiblename: pkgconf
-  version: 1.8.1
-  origversion: 1.8.1-4+apertis0
-  status: outdated
-  maintainers:
-    - andrewsh@debian.org
-  vulnerable: true
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - pkgconf-bin
-    - libpkgconf3
-    - libpkgconf-dev
-    - pkg-config
-  visiblename: pkgconf
-  version: 1.8.1
-  origversion: 1.8.1-4+apertis0
-  status: outdated
-  maintainers:
-    - andrewsh@debian.org
-  vulnerable: true
-- repo: ubi_8
-  subrepo: baseos
-  srcname: pkgconf
-  visiblename: pkgconf
-  version: 1.4.2
-  origversion: 1.4.2-1.el8
-  status: outdated
-  summary: Package compiler and linker metadata toolkit
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
+    - devel
   vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
@@ -2549,6 +2436,54 @@
   visiblename: pkgconf
   version: 1.8.1
   origversion: 1.8.1-1+apertis0
+  status: outdated
+  maintainers:
+    - andrewsh@debian.org
+  vulnerable: true
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-bin
+    - libpkgconf3
+    - libpkgconf-dev
+    - pkg-config
+  visiblename: pkgconf
+  version: 1.8.1
+  origversion: 1.8.1-1+apertis0
+  status: outdated
+  maintainers:
+    - andrewsh@debian.org
+  vulnerable: true
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-bin
+    - libpkgconf3
+    - libpkgconf-dev
+    - pkg-config
+  visiblename: pkgconf
+  version: 1.8.1
+  origversion: 1.8.1-4+apertis0
+  status: outdated
+  maintainers:
+    - andrewsh@debian.org
+  vulnerable: true
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-bin
+    - libpkgconf3
+    - libpkgconf-dev
+    - pkg-config
+  visiblename: pkgconf
+  version: 1.8.1
+  origversion: 1.8.1-4+apertis0
   status: outdated
   maintainers:
     - andrewsh@debian.org
@@ -2756,6 +2691,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/devel/pkgconf
+  binname: libpkgconf
+  visiblename: libpkgconf
+  version: 1.8.0
+  origversion: 1.8.0-2
+  status: outdated
+  maintainers:
+    - rosenp@gmail.com
+  categories:
+    - libs
+  vulnerable: true
 - repo: eurolinux_9
   subrepo: baseos
   srcname: pkgconf
@@ -2806,6 +2754,23 @@
   status: outdated
   categories:
     - dev-util
+  vulnerable: true
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - libpkgconf
+    - libpkgconf3
+    - libpkgconf-dev
+  visiblename: pkgconf
+  version: 1.6.3
+  origversion: 1.6.3-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - devel
   vulnerable: true
 - repo: mageia_9
   subrepo: core/release
@@ -2905,40 +2870,6 @@
     - ISC
   categories:
     - Unspecified
-  vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - libpkgconf
-    - libpkgconf3
-    - libpkgconf-dev
-  visiblename: pkgconf
-  version: 1.6.3
-  origversion: 1.6.3-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - devel
-  vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze-proposed/main
-  srcname: pkgconf
-  binnames:
-    - pkgconf
-    - libpkgconf
-    - libpkgconf3
-    - libpkgconf-dev
-  visiblename: pkgconf
-  version: 1.6.3
-  origversion: 1.6.3-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - devel
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
@@ -3084,18 +3015,13 @@
   categories:
     - Development/Tools/Building
   vulnerable: true
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/devel/pkgconf
-  binname: libpkgconf
-  visiblename: libpkgconf
-  version: 1.8.0
-  origversion: 1.8.0-2
-  status: outdated
-  maintainers:
-    - rosenp@gmail.com
-  categories:
-    - libs
+- repo: xrepo
+  srcname: pkgconf
+  visiblename: pkgconf
+  version: 1.7.4
+  origversion: null
+  status: legacy
+  summary: A program which helps to configure compiler and linker flags for development frameworks.
   vulnerable: true
 - repo: openwrt_23_05_x86_64
   subrepo: packages
@@ -3135,6 +3061,59 @@
     - rosenp@gmail.com
   categories:
     - devel
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - libpkgconf
+    - libpkgconf3
+    - libpkgconf-dev
+  visiblename: pkgconf
+  version: 1.7.4~git20210206+dcf529b
+  origversion: 1.7.4~git20210206+dcf529b-3
+  status: outdated
+  maintainers:
+    - andrewsh@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-bin
+    - libpkgconf3
+    - libpkgconf-dev
+    - pkg-config
+  visiblename: pkgconf
+  version: 1.8.1
+  origversion: 1.8.1-4
+  status: outdated
+  maintainers:
+    - andrewsh@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: pkgconf
+  binnames:
+    - pkgconf
+    - pkgconf-bin
+    - libpkgconf3
+    - libpkgconf-dev
+    - pkg-config
+  visiblename: pkgconf
+  version: 1.8.1
+  origversion: 1.8.1-4
+  status: outdated
+  maintainers:
+    - andrewsh@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
@@ -3287,6 +3266,19 @@
   categories:
     - development
   vulnerable: true
+- repo: ubi_8
+  subrepo: baseos
+  srcname: pkgconf
+  visiblename: pkgconf
+  version: 1.4.2
+  origversion: 1.4.2-1.el8
+  status: outdated
+  summary: Package compiler and linker metadata toolkit
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty/universe
   srcname: pkgconf
@@ -3416,6 +3408,14 @@
     - andrewsh@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: xrepo
+  srcname: pkgconf
+  visiblename: pkgconf
+  version: 1.8.0
+  origversion: null
+  status: legacy
+  summary: A program which helps to configure compiler and linker flags for development frameworks.
   vulnerable: true
 - repo: xrepo
   srcname: pkgconf
