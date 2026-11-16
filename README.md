@@ -27,16 +27,16 @@ x install pkgconf
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-26 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Distribution status
 
-Reported by **251** distros on [repology.org](https://repology.org/project/pkgconf). **8** are ✅ on the latest upstream release, **202** are ⚠️ on an older version.
+Reported by **248** distros on [repology.org](https://repology.org/project/pkgconf). **28** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -49,9 +49,9 @@ Reported by **251** distros on [repology.org](https://repology.org/project/pkgco
 | Homebrew | `3.0.10` | ⚠️ outdated |
 | Fedora rawhide | `2.5.1` | ⚠️ outdated |
 | Nix unstable | `3.0.8` | ⚠️ outdated |
-| Void | `3.0.7` | ⚠️ outdated |
+| Void | `3.0.11` | ✅ latest |
 | Alpine edge | `3.0.11` | ✅ latest |
-| openSUSE Tumbleweed | `2.5.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.6.3` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -62,4 +62,4 @@ Install metadata for pkgconf lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T04:35:18Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T04:32:13Z._
